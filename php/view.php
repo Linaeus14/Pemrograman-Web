@@ -5,9 +5,8 @@
         <div class="fnav">
             <a href="../dashboard/admin.php" id="Activenav"> Home </a>
         </div>
-        <a href="../nav/me.php"> About me </a>
         <div class="lnav">
-            <a href="../nav/fiction.php"> Stories </a>
+            <a href="../nav/fiction2.php"> Stories </a>
         </div>
     </nav>
     <main>
