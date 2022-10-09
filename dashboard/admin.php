@@ -26,7 +26,7 @@
                     <td>
                         <input type="radio" name="genre" value="sedih" required> Senang
                         <input type="radio" name="genre" value="senang" required> Sedih
-                        <input type="radio" name="genre" value="senang" required> Netral
+                        <input type="radio" name="genre" value="netral" required> Netral
                     </td>
                 </tr>
                 <tr>
