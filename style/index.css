@@ -1,6 +1,6 @@
 /* Mobile */
 body {
-  background-image: url("../image/bg2.jpg");
+  background-image: url("../img/bg2.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   color: black;
@@ -41,23 +41,21 @@ nav {
     margin-top: 4px;
     color: #FBFCFF;
   }
-  nav button {
+
+#Logout {
   float: right;
   margin-top: 4px;
-  margin-right: 4px;
   color: #d0ccd0;
-  background-color: #274156;
+  text-decoration: none;
   text-align: center;
   padding: 10px 20px; 
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-size: 13px; 
-  }
-  nav button:hover {
-    margin-top: 6px;
-    border-top: 2px solid black;
-    color: #FBFCFF;
-  }
- 
+ }
+ #logout:hover {
+  margin-top: 4px;
+  color: #FBFCFF;
+}
 
 .fnav {
   margin-left: 2%;

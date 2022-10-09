@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style/index.css" />
+    <link rel="stylesheet" href="style/login.css" />
     <title> Ungkapan Pikiran </title>
 </head>
 <body>
@@ -15,45 +15,34 @@
     <hr>
     <nav>
         <div class="fnav">
-            <a href="index.html" id="Activenav"> Home </a>
-        </div>
-        <a href="nav\me.php"> About me </a>
-        <div class="lnav">
-            <a href="nav\fiction.php"> Stories </a>
+            <p id="Activenav"> <> </p>
         </div>
     </nav>
     <main>
         <hr>
-        <img src="image/Logo1.png" alt="Logo1" height="25%" width="25%">
-        <h3> Tempat dimana, isi pikiran penulis tersampaikan dalam tulisan </h3>
-        <hr>
-        <form id="request" action="./php/view.php" method="post">
+        <form id="login" action="./php/login.php" method="post">
             <table>
-                <h2> Submit Cerita </h2>
+                <h2> Log In </h2>
                 <tr>
-                    <td> Judul </td>
-                    <td> <input type="text" name="judul" placeholder="enter the title here" required> </td>
+                    <td> Username </td>
+                    <td> <input type="text" name="id" placeholder="masukan username anda" required> </td>
                 </tr>
                 <tr>
-                    <td> Genre </td>
+                    <td> Password </td>
+                    <td> <input type="password" name="pass" placeholder="masukan passwrod anda" required> </td>
+                </tr>
+                <tr>
+                    <td>  Pengguna </td>
                     <td>
-                        <input type="radio" name="genre" value="sedih" required> Senang
-                        <input type="radio" name="genre" value="senang" required> Sedih
-                        <input type="radio" name="genre" value="senang" required> Netral
+                        <select name="tipe">
+                            <option value="user"> User </option>
+                            <option value="admin"> Admin </option>
+                        </select>
                     </td>
-                </tr>
-                <tr>
-                    <td> Email </td>
-                    <td> <input type="email" name="email" id="email" placeholder="enter your email here" required></td>
-                </tr>
-                <tr>
-                    <td> Jumlah Paragraf </td>
-                    <td> <input type="number" name="paragraf" required> </td>
                 </tr>
             </table>
             <hr>
-            <input type="file" name="file" accept=".doc, .docx, text/plain, application/pdf" required>
-            <input type="submit" value="Submit File">
+            <input type="submit" value="login">
         </form>
         <hr>
     </main>

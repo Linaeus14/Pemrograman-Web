@@ -2,11 +2,10 @@
 <?php require "../php/header.php"?>    
     <nav>
         <div class="fnav">
-            <a href="../dashboard/user.php"> Home </a>
+            <a href="../dashboard/admin.php"> Home </a>
         </div>
-        <a href="me.php"> About me </a>
         <div class="lnav">
-            <a href="fiction.php" id="Activenav"> Stories </a>
+            <a href="fiction2.php" id="Activenav"> Stories </a>
         </div>
         <a href="../php/logout.php" id="Logout"> Log Out </a>
     </nav>

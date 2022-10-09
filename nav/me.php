@@ -1,12 +1,14 @@
+<?php require "../php/sessionu.php"?> 
 <?php require "../php/header.php"?>  
     <nav>
         <div class="fnav">
-            <a href="../index.php"> Home </a>
+            <a href="../dashboard/user.php"> Home </a>
         </div>
         <a href="me.php" id="Activenav"> About me </a>
         <div class="lnav">
             <a href="../nav/fiction.php"> Stories </a>
         </div>
+        <a href="../php/logout.php" id="Logout"> Log Out </a>
     </nav>
     <main>
         <div class="me">

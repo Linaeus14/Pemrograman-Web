@@ -1,8 +1,9 @@
-<?php require "header.php"?>  
+<?php require "sessiona.php"?>  
+<?php require "header.php"?>
     <hr>
     <nav>
         <div class="fnav">
-            <a href="../index.php" id="Activenav"> Home </a>
+            <a href="../dashboard/admin.php" id="Activenav"> Home </a>
         </div>
         <a href="../nav/me.php"> About me </a>
         <div class="lnav">
@@ -33,7 +34,7 @@
         </table>
         <hr>
         <?= $_POST["file"]; ?> <br>
-        <button> <a href="../index.php"> Kembali</a> </button>
+        <button> <a href="../dashboard/admin.php"> Kembali</a> </button>
         <hr>
     </main>
 <?php require "footer.php"?>  
