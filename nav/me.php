@@ -18,7 +18,7 @@
             <hr>
         </div>
         <div class="me2">
-            <p> NIM : 2109106042 <br> Web ini dibuat demi memenuhi tugas posttest 4 praktikum pemrograman web </p>
+            <p> NIM : 2109106042 <br> Web ini dibuat demi memenuhi tugas UTS praktikum pemrograman web </p>
         </div>
     </main>
 <?php require "../php/footer.php"?>  
